@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout4"
+    style="@style/linearPrincipal2">
+    <RelativeLayout
+        style="@style/cabecalhoInformacoes">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/lblNomeOrdemServico"
+                    android:text="BetaCWB: Carrrinho"
+                    style="@style/headerLeft"
+                    android:textColor="#FFF46F" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/lblNomeOrdemServico"
+                    android:text="Valor no Carrinho:"
+                    style="@style/headerLeft"
+                    android:textColor="#FFF46F" />
+                <TextView
+                    android:id="@+id/txtValorCarrinho"
+                    android:text="R$ 00,00"
+                    style="@style/headerLeft"
+                    android:textColor="#FFF46F" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/layoutPrincipalPasso2"
+        style="@style/lista"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutPrincipalBuscaCodigoNCM">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="66.5dp"
+                android:id="@+id/layoutTipo">
+                <Button
+                    android:text="Finalizar Compra"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    style="@style/btnStyle"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btnFinalizarCompraCarrinho" />
+            </LinearLayout>
+        </LinearLayout>
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lstProdutosEntradaPedido"
+            style="@style/lista"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp" />
+    </LinearLayout>
+</LinearLayout>

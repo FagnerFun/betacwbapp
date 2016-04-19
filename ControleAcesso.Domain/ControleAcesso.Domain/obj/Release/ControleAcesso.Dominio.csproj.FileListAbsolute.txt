@@ -1,0 +1,9 @@
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\obj\Release\ControleAcesso.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\bin\Release\ControleAcesso.Dominio.dll
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\bin\Release\ControleAcesso.Dominio.pdb
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\obj\Release\ControleAcesso.Dominio.dll
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\obj\Release\ControleAcesso.Dominio.pdb
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\obj\Release\ControleAcesso.Dominio.dll.mdb
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\bin\Release\ControleAcesso.Dominio.dll.mdb
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\obj\Release\ControleAcesso.Dominio.dll.mdb
+C:\Users\iso\Documents\Visual Studio 2015\Projects\ControleAcesso\ControleAcesso.Domain\ControleAcesso.Domain\bin\Release\ControleAcesso.Dominio.dll.mdb

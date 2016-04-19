@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout4"
+    style="@style/linearPrincipal2">
+    <RelativeLayout
+        style="@style/cabecalhoInformacoes">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/lblNomeOrdemServico"
+                    android:text="BetaCWB: Busca usuário"
+                    style="@style/headerLeft"
+                    android:textColor="#FFF46F" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutPrincipalBuscaCodigoNCM"
+        style="@style/lista"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:text="CPF"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtCodigoNCMFiltro"
+            style="@style/titulo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="66.5dp"
+            android:id="@+id/layoutTipo">
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout1"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:layout_width="225.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtCPFRegistroPulseira"
+                    android:inputType="number" />
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBuscarUsuarioRegistroPulseira"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="OK"
+                android:maxWidth="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lstUsuario"
+        style="@style/lista"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linearPrincipal2">
+    <RelativeLayout
+        style="@style/cabecalhoInformacoes">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtNome"
+                    android:text="BetaCWB: Produtos"
+                    style="@style/headerLeft"
+                    android:textColor="#FFF46F" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_margin="12dp">
+        <ListView
+            android:id="@+id/lstProdutos"
+            style="@style/lista"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

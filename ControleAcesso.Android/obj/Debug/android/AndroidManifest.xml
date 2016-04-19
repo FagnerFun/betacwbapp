@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ControleAcesso.Android.ControleAcesso.Android" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <application android:label="ControleAcesso.Android" android:icon="@drawable/icone" android:name="mono.android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="CarrinhoActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.CarrinhoActivity" />
+    <activity android:label="Activity1" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.EntradaEventoActivity" />
+    <activity android:label="BuscaUsuario" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.BuscaUsuarioActivity" />
+    <activity android:label="EntradaActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.EntradaActivity" />
+    <activity android:label="Cadastro de Evento" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.EventoCadActivity" />
+    <activity android:label="EventosActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.EventosActivity" />
+    <activity android:label="MenuProdutoActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.MenuProdutoActivity" />
+    <activity android:label="MenuUsuarioActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.MenuUsuarioActivity" />
+    <activity android:label="MenuPedidoActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.MenuPedidoActivity" />
+    <activity android:label="Pulseira" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.MenuPulseiraActivity" />
+    <activity android:label="Beta CWB" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.LoginActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MenuAcesso" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.MenuAcessoActivity" />
+    <activity android:label="PedidoEntradaActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.PedidoEntradaActivity" />
+    <activity android:label="PedidoSaidaActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.PedidoSaidaActivity" />
+    <activity android:label="ProdutoActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.ProdutoActivity" />
+    <activity android:label="RegistrarPulseiraActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.RegistrarPulseiraActivity" />
+    <activity android:label="UsuarioActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.UsuarioActivity" />
+    <activity android:label="UsuarioCadActivity" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:name="md55df589102548a9d563238a033af5b986.UsuarioCadActivity" />
+    <activity android:configChanges="keyboardHidden|orientation|screenLayout" android:label="Scanner" android:name="md59d50db212e0bbf7132bbad8b3d837d51.ZxingActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ControleAcesso.Android.ControleAcesso.Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.ControleAcesso.Android.ControleAcesso.Android" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
